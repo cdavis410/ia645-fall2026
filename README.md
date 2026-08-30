@@ -13,7 +13,7 @@ This repository contains all lab environments, datasets, and resources for IA 64
 
 Complete these steps **before Week 2**. If you run into issues, post in the Week 2 QCC board on Canvas.
 
-### Step 1 — Install Docker Desktop
+### Step 1 — Install Docker Desktop and a SQLite Browser
 
 1. Go to https://www.docker.com/products/docker-desktop
 2. Download the Windows installer (AMD64 for most machines)
@@ -24,6 +24,9 @@ Complete these steps **before Week 2**. If you run into issues, post in the Week
 
 **System requirements:** Windows 10/11, minimum 8GB RAM (16GB recommended), 30GB free storage
 
+7. Go to https://sqlitebrowser.org/dl/
+8. Download the Windows installer (AMD64 for most machines)
+9. Run the installer
 ---
 
 ### Step 2 — Create a GitHub Account
@@ -37,7 +40,7 @@ If you do not already have one, create a free account at https://github.com
 Open PowerShell and run:
 
 ```
-git clone https://github.com/[INSTRUCTOR_GITHUB]/ia645-fall2026.git
+git clone https://github.com/aliske1/ia645-fall2026.git
 ```
 
 This downloads the entire course repository to your machine. Navigate into it:
