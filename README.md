@@ -5,15 +5,15 @@
 
 ## Course Overview
 
-This repository contains all lab environments, datasets, and resources for IA 645. Everything you need to complete the labs is here. Read this document carefully before Week 2.
+This repository contains all lab environments, datasets, and resources for IA 645. Everything you need to complete the labs is here. Read this document carefully before starting Lab 1.
 
 ---
 
 ## Getting Started — Required Setup
 
-Complete these steps **before Week 2**. If you run into issues, post in the Week 2 QCC board on Canvas.
+Complete these steps during **Week 1**, before you start Lab 1. If you run into issues, post in the Week 1 QCC board on Canvas.
 
-### Step 1 — Install Docker Desktop and a SQLite Browser
+### Step 1 — Install Docker Desktop
 
 1. Go to https://www.docker.com/products/docker-desktop
 2. Download the Windows installer (AMD64 for most machines)
@@ -24,9 +24,6 @@ Complete these steps **before Week 2**. If you run into issues, post in the Week
 
 **System requirements:** Windows 10/11, minimum 8GB RAM (16GB recommended), 30GB free storage
 
-7. Go to https://sqlitebrowser.org/dl/
-8. Download the Windows installer (AMD64 for most machines)
-9. Run the installer
 ---
 
 ### Step 2 — Create a GitHub Account
@@ -114,16 +111,23 @@ ia645-fall2026/
 ├── Dockerfile                 ← Course container definition
 ├── start_ia645.bat            ← Windows quick-start script
 ├── setup/                     ← Additional setup guides
-├── datasets/                  ← Datasets organized by week
-├── labs/                      ← Lab instructions and starter notebooks
+├── week1/                     ← Lab 1 + auth_log and Northwind datasets
+├── week2/                     ← Lab 2 + messy auth log dataset
+├── week3/                     ← Labs 3 and 4 + network traffic and security events datasets
+├── week4/                     ← Lab 5 + course data (NSL-KDD is a separate download)
+├── week5/                     ← Lab 6 + ELK Docker Compose files and ingest script
+├── week6/                     ← Lab 7 + security events dataset
+├── week7/                     ← Final project work week (no new lab)
 └── resources/                 ← Reference materials and cheat sheets
+
+Each weekN folder holds that week's lab folder(s) and a `datasets/` folder.
 ```
 
 ---
 
 ## Lab Submission
 
-Each lab folder contains:
+Each lab folder (for example `week1/lab1/`) contains:
 - **Instructions** — what the lab asks you to do
 - **Starter notebook** — a scaffold to work from
 

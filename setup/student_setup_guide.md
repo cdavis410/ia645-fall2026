@@ -1,6 +1,6 @@
 # Student Setup Guide — IA 645
 
-This guide covers everything you need to get your course environment running. Work through it top to bottom. If something fails, note the exact error message and post it in the Week 2 QCC board on Canvas.
+This guide covers everything you need to get your course environment running. Work through it top to bottom. If something fails, note the exact error message and post it in the Week 1 QCC board on Canvas.
 
 ---
 

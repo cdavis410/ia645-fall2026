@@ -1,0 +1,11 @@
+# NSL-KDD benchmark files (downloaded separately)
+week4/datasets/nsl_kdd/*
+!week4/datasets/nsl_kdd/README.md
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Student output
+auth_log_clean.csv
